@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Hanalei&family=Inria+Serif&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inria Serif', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* position: relative;
+  z-index: -1; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

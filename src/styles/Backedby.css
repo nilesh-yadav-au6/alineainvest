@@ -1,0 +1,59 @@
+.backedby{
+    margin-top: 100px;
+    width: 100%;
+    height: 25%;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+.companies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    /* height: 50vh; */
+    margin: auto;
+}
+.backedby img{
+    width: 300px;
+}
+.content{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+.content-text{
+    width: 50%;
+}
+.content-image{
+    width: 25%;
+    background-color: lightsalmon;
+}
+.heading{
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+.content-text h1{
+    font-size: 50px;
+}
+.bonus h1{
+    font-size: 200px;
+}
+.bonus p{
+    font-size: 25px;
+}
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: purple;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+  
+  /* The element to apply the animation to */
+.bonus h1{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite
+  }

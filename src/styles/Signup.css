@@ -1,0 +1,96 @@
+.signup-div{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    line-height: 2;
+}
+.signup-div h1{
+    font-size: 50px;
+}
+.signup-div p{
+    font-size: 25px;
+    color: gray;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    display: flex;
+}
+.card{
+    width: 25%;
+    background-color: #f0f0f0;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    margin: 10px auto;
+    background: white;
+    border-radius: 10px;
+}
+.header-card{
+    width: 100%;
+    background-color:#cee3f8;
+    text-align: center;
+    line-height: 2;
+    height: 150px;
+}
+.premium-card{
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    height: 150px;
+}
+.basic-card{
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    height: 150px;
+}
+.info{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    line-height: 2;
+}
+.info-brief{    
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.signup-btn{
+    width: 60%;
+    height: 50px;
+    padding:15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: #0054a4;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.signup-btn:hover{
+    background-color: #0a2239;
+}
+
+.progressbar{
+    width: 80%;
+    margin: 10px auto;
+    height: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.progressinner{
+    height: 100%;
+    width: 80%;
+    height: 10px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
